@@ -108,7 +108,6 @@ function findNeedle(haystack) {
   return `found the needle at position ${haystack.indexOf("needle")}`;
 }
 
-
 // After a hard quarter in the office you decide to get some rest on a vacation. So you will book a flight for you and your girlfriend and try to leave all the mess behind you.
 // You will need a rental car in order for you to get around in your vacation. The manager of the car rental makes you some good offers.
 // Every day you rent the car costs $40. If you rent the car for 7 or more days, you get $50 off your total. Alternatively, if you rent the car for 3 or more days, you get $20 off your total.
@@ -126,3 +125,32 @@ function rentalCarCost(d) {
     return rentalCost;
   }
 }
+
+function checkNumber(arr) {
+
+    if(arr[0] > arr[arr.length - 1]) {
+      alert("hi")
+    } else if(arr[0] < arr[arr.length - 1]) {
+      alert("bye")
+    }  else {
+      alert("we close in an hour")
+    }
+  }
+checkNumber([2,3,4,56,-2])
+
+
+You get an array of numbers, return the sum of all of the positives ones.
+
+Example
+[1, -4, 7, 12] => 
+1
++
+7
++
+12
+=
+20
+1+7+12=20
+Note
+If there is nothing to sum, the sum is default to 0.
+function 
