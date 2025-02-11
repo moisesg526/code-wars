@@ -167,3 +167,16 @@ function sumArray(array) {
 }
 
 sumArray([1, 2, 3, 4, 5, 6, 7]);
+
+//Convert string to Number
+// All inputs are string
+
+function stringToNumber(str) {
+  let number = Number(str);
+  if (str) {
+    return number;
+  }
+  return null;
+}
+
+stringToNumber("1233432");
