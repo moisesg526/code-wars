@@ -263,7 +263,6 @@ function sumTwoSmallestNumbers(numbers) {
 
 sumTwoSmallestNumbers([2, 3, 4, 9, 5, 1]);
 
-
 // We need a function that can transform a number (integer) into a string.
 // 123  --> "123"
 // 999  --> "999"
@@ -271,5 +270,17 @@ sumTwoSmallestNumbers([2, 3, 4, 9, 5, 1]);
 
 function numberToString(num) {
   // Return a string of the number here!
-  return num.toString()
+  return num.toString();
 }
+
+numberToString(123);
+
+// You can't code under preassure #1
+// Code as fast as you can! You need to double the integer and return it
+
+function doubleInteger(i) {
+  // i will be an integer. Double it and return it.
+  return i * 2;
+}
+
+doubleInteger(2);
