@@ -331,3 +331,12 @@ var summation = function (num) {
 };
 
 summation(6);
+
+// Remove exclamation marks
+// Write function that removes all exclamation marks from a given string
+
+function removeExclamationMarks(s) {
+  return s.replace("!", "");
+}
+
+removeExclamationMarks("Hello World!");
