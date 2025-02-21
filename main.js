@@ -336,7 +336,7 @@ summation(6);
 // Write function that removes all exclamation marks from a given string
 
 function removeExclamationMarks(s) {
-  return s.replace("!", "");
+  return s.replaceAll("!", "");
 }
 
 removeExclamationMarks("Hello World!");
