@@ -9,18 +9,8 @@
 // or end of the string. They will not contain numerals.
 
 function feast(beast, dish) {
-  let beastSplit = beast.split("");
-  let beastF = beastSplit.shift();
-  let beastL = beastSplit.pop();
-  let dishSplit = dish.split("");
-  let dishF = dishSplit.shift();
-  let dishL = dishSplit.pop();
-
-  if (beastF === dishF && beastL === dishL) {
-    return true;
-  } else {
-    return false;
-  }
+  return (
+    beast[0] === dish[0] && beast[beast.length - 1] === dish[dish.length - 1]
+  );
 }
-
 feast("crow", "claw chowder");
