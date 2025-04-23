@@ -1,17 +1,17 @@
 // Return the two numbers from the nums array that add up to target
 
 function twoSum(nums, target) {
-  let newArr = [];
-  for (let i = 1; i < nums.length; i++) {
-    if (nums[i] + nums[i - 1] === target) {
-      newArr.push(nums[i - 1]);
-      newArr.push(nums[i]);
+  for (let i = 0; i < nums.length; i++) {
+    for (let j = i + 1; j < nums.length; j++) {
+      if (nums[i] + nums[j] === target) {
+        console.log ([i, j]);
+      }
     }
   }
-  console.log(newArr);
+  return ([]);
 }
 
-twoSum([3, 4, 5, 6], 7);
+twoSum([4, 5, 6], 10);
 
 // P: nums => array of int, target => int
 // R: arr => 2 int from nums array that add up to target
