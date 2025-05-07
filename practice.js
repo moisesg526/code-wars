@@ -1,11 +1,17 @@
-function hasDuplicate(nums) {
-  let sortNums = nums.sort((a, b) => a - b);
-  for (let i = 1; i < sortNums.length; i++) {
-    if (sortNums[i] === sortNums[i - 1]) {
-      return true;
-    }
-  }
-  return false;
-}
+// Must Know JS Methods
+// arrays => filter, reduce, forEach, includes, indexOF, map
+// strings => split, join
 
-hasDuplicate([7, 1, 5, 3, 3, 4]);
+const items = [
+  { name: "Bike", price: 100 },
+  { name: "Tv", price: 200 },
+  { name: "Album", price: 10 },
+  { name: "Book", price: 5 },
+  { name: "Phone", price: 500 },
+  { name: "Computer", price: 1000 },
+  { name: "Keyboard", price: 25 },
+];
+
+
+let filterItems = items.filter(item => item.price >= 100)
+console.log(filterItems)
