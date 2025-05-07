@@ -12,6 +12,10 @@ const items = [
   { name: "Keyboard", price: 25 },
 ];
 
+// Filter  True or False
+let filterItems = items.filter((item) => item.price >= 100);
+console.log(filterItems);
 
-let filterItems = items.filter(item => item.price >= 100)
-console.log(filterItems)
+// Map
+let names = items.map((name) => name.name);
+console.log(names);
