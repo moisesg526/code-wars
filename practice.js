@@ -23,3 +23,6 @@ console.log(names);
 // includes
 const numbers = [1, 2, 3, 4, 5, 67, 73, 74, 84, 64, 53];
 console.log(numbers.includes(2));
+
+let findName = items.find((name) => name.name === "Book");
+console.log(findName);
