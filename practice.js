@@ -26,3 +26,6 @@ console.log(numbers.includes(2));
 
 let findName = items.find((name) => name.name === "Book");
 console.log(findName);
+
+let second = numbers.indexOf(74);
+console.log(second);
