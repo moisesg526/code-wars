@@ -10,3 +10,4 @@ function findMultiples(integer, limit) {
   console.log(arr);
 }
 findMultiples(5, 25);
+
